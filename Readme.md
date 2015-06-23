@@ -1,0 +1,1 @@
+Customized pop up window created with the help of plain JS and CSS
