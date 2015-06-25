@@ -1,5 +1,15 @@
 .modalWindow{
-	color: #333;
+	opacity: 0.6;
+	background-color: red;
 	width: 100%;
 	height: 100%;	
+	margin: 0 auto;
+}
+
+.popupWindow{
+	visibility: hidden;
+	width: 50%;
+	margin: 0 auto;
+	height: 50%;
+	opacity: 1.0;
 }
