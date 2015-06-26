@@ -6,8 +6,3 @@ function showAlert(){
 	popupWindow.style.visibility='visible';
 
 }
-
-function hideAlert(){
-	var popupWindow=document.getElementById('popupWindow');
-	popupWindow.style.visibility='hidden';
-}	
