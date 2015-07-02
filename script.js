@@ -2,7 +2,7 @@
  //CopyrightLeft (ↄ) 2015 Yaseen <myaseen.khan@hotmail.com> 
 
 function showAlert(){
-	var popupWindow=document.getElementById('popupWindow');
+	var popupWindow=document.getElementById('modalWindow');
 	popupWindow.style.visibility='visible';
 
 }

@@ -9,7 +9,20 @@
 <body>
 <input type="button" value="show" onclick="showAlert()" />
 <div id="modalWindow" class="modalWindow">
-	<div id="popupWindow" class="popupWindow">Dude!!!! This is the pop up window</div>
+	<div>
+	<table>
+		<thead>
+			<tr>
+			<td class="popupTitleStyle">Dude!!!! This is the pop up Window</td>
+			<td class="closeButtonStyle"><img src=images/closeWindowIcon.png></td>
+			</tr>
+		</thead>
+		    <tr><td>&nbsp;</td><td>&nbsp;</td></tr>					
+			<tr><td>blah blah</td><td><input type='text' id='employeeName' name='employeeName'/></td></tr>
+			<tr><td>blah</td><td><select id='addDepartmentComboBox' name='departmentCode'></select>
+			</td></tr>
+	</table>
+	</div>
 </div>
 </body>
 </html>
