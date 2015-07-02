@@ -6,3 +6,6 @@ function showAlert(){
 	popupWindow.style.visibility='visible';
 
 }
+function closeAlert(){
+	
+}
