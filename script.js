@@ -6,6 +6,8 @@ function showAlert(){
 	popupWindow.style.visibility='visible';
 
 }
-function closeAlert(){
-	
+function closePopup(){
+	alert(1);
+	var popupWindow=document.getElementById('modalWindow');
+	popupWindow.style.visibility='hidden';
 }
