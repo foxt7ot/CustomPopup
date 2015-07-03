@@ -1,1 +1,3 @@
-# Customized pop up window created with the help of plain JS and CSS
+# Custom Pop up window
+
+Created with the help of plain JS and CSS
