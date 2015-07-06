@@ -6,7 +6,13 @@ function showAlert(){
 
 }
 function closePopup(){
-	alert(1);
 	var popupWindow=document.getElementById('modalWindow');
 	popupWindow.style.visibility='hidden';
+
+}
+
+window.onkeyup=function(ev){
+	if(ev.keyCode===27){
+		document.getElementById('modalWindow').style.visibility='hidden';	
+	}
 }
